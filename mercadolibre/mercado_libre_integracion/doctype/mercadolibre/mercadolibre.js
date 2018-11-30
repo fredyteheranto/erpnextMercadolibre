@@ -9,8 +9,9 @@ console.log("Agent_Calculator Ldddddddaded");
 };
  */
 //document.head.appendChild(script);
-
+frappe.render(frappe.templates.address_list, {[context]})
 frappe.ui.form.on('mercadolibre', {
+	
 	refresh: function(frm) {
 		console.log('fredy teheran tovar,',frm)
 		$.get("http://dummy.restapiexample.com/api/v1/employees", function(data, status){

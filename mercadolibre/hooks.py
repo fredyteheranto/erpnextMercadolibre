@@ -11,11 +11,14 @@ app_color = "#007eff"
 app_email = "fredyteheran91@gmail.com"
 app_license = "GNU General Public License"
 app_url = "http://fredyteheranto.com"
+
+
+fixtures = ["Custom Field"]
 # Includes in <head>
 # ------------------
 
 # include js, css files in header of desk.html
-# app_include_css = "/assets/mercadolibre/css/mercadolibre.css"
+#app_include_css = "/assets/mercadolibre/css/mercadolibre.css"
 # app_include_js = "/assets/mercadolibre/js/mercadolibre.js"
 
 # include js, css files in header of web template
