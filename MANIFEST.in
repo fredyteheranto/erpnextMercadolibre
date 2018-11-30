@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include mercadolibre *.css
+recursive-include mercadolibre *.csv
+recursive-include mercadolibre *.html
+recursive-include mercadolibre *.ico
+recursive-include mercadolibre *.js
+recursive-include mercadolibre *.json
+recursive-include mercadolibre *.md
+recursive-include mercadolibre *.png
+recursive-include mercadolibre *.py
+recursive-include mercadolibre *.svg
+recursive-include mercadolibre *.txt
+recursive-exclude mercadolibre *.pyc
